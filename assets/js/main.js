@@ -1,7 +1,7 @@
 /*=============== SWIPER JS ===============*/
 let swiperCards = new Swiper(".card__content", {
-  loop: true,
-  spaceBetween: 32,
+  loop: false,
+  spaceBetween: 10,
   grabCursor: true,
 
   pagination: {
@@ -22,5 +22,6 @@ let swiperCards = new Swiper(".card__content", {
     968: {
       slidesPerView: 3,
     },
+
   },
 });
