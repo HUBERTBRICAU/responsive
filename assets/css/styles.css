@@ -72,8 +72,11 @@ img {
 .card__image {
   position: relative;
   background-color: var(--first-color-light);
-  padding-top: 1.5rem;
+  height: 284px;
+  margin-bottom: 0px;
+  padding-top: 0px;
   margin-bottom: -.75rem;
+  border-radius: 15px;
 }
 
 .card__data {
@@ -83,10 +86,12 @@ img {
   text-align: center;
   position: relative;
   z-index: 10;
+  visibility: hidden;
 }
 
 .card__img {
-  width: 180px;
+  width: 260px;
+  height: 232 ;
   margin: 0 auto;
   position: relative;
   z-index: 5;
@@ -103,6 +108,7 @@ img {
   right: 0;
   margin-inline: auto;
   filter: blur(45px);
+  visibility: hidden;
 }
 
 .card__name {
@@ -165,3 +171,28 @@ img {
   }
 }
 
+/* For medium devices */
+@media screen and (min-width: 768px) {
+  .card__content {
+    margin-inline: 3rem;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: block;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 1120px) {
+  .card__container {
+    max-width: 1120px;
+  }
+
+  .swiper-button-prev {
+    left: -1rem;
+  }
+  .swiper-button-next {
+    right: -1rem;
+  }
+}
