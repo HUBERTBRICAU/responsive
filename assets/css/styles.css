@@ -77,8 +77,7 @@ img {
   position: relative;
   background-color: var(--first-color-light);
   height: 284px;
-  margin-bottom: 00px;
-  border-radius: 15px;
+  border-radius:20px;
 }
 
 .card__data {
@@ -92,8 +91,9 @@ img {
 }
 
 .card__img {
-  /* width: 260px; */
+  
   height: 284px ;
+  border-radius: 20px;
   margin: 0 auto;
   position: relative;
   z-index: 5;
