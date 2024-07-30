@@ -88,8 +88,8 @@ img {
 }
 
 .card__img {
-  width: 260px;
-  height: 232 ;
+  /* width: 260px; */
+  height: 284px ;
   margin: 0 auto;
   position: relative;
   z-index: 5;
