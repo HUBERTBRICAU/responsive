@@ -34,6 +34,10 @@ body {
   background-color: var(--body-color);
   color: var(--white-color);
 }
+ 
+section{
+  visibility:visible;
+}
 
 a {
   text-decoration: none;
