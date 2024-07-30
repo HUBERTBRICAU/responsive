@@ -73,10 +73,7 @@ img {
   position: relative;
   background-color: var(--first-color-light);
   height: 284px;
-  margin-bottom: 0px;
-  padding-top: 0px;
-  height: 284px;margin-bottom: 0px;padding-top: 0px;
-  margin-bottom: -.75rem;
+  margin-bottom: 00px;
   border-radius: 15px;
 }
 
