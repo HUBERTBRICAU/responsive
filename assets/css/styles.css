@@ -57,6 +57,15 @@ img {
   height: 100vh;
 }
 
+.card__container .swiper{
+
+  height: 460px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+
 .card__container {
   padding-block: 5rem;
 }
@@ -131,6 +140,11 @@ img {
   border-radius: .25rem;
   color: var(--dark-color);
   font-weight: 600;
+}
+.card_swiper .wrapper{
+  cursor: grab;
+  transform: translate3d(0px, 0px, 0px);
+  height: 300px;
 }
 
 /* Swiper class */
