@@ -193,6 +193,8 @@ color: black;
   width: 40px;
  border-radius: 50%;
  color: black;
+ cursor: pointer;
+
 }
 
 .swiper-pagination-bullet {
