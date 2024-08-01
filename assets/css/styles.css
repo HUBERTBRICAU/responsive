@@ -99,11 +99,8 @@ img {
 }
 
 .card__img {
-  
- 
   height: 230px;
   width: 300px;
-
   border-radius: 20px;
   margin: 0 auto;
   position: relative;
@@ -186,19 +183,17 @@ img {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  
 }
-.control .li .prev{
-color: black;
+.control .li .prev {
+  color: black;
 }
-.arrow{
+.arrow {
   background-color: rgb(163, 196, 240);
   height: 40px;
   width: 40px;
- border-radius: 50%;
- color: black;
- cursor: pointer;
-
+  border-radius: 50%;
+  color: black;
+  cursor: pointer;
 }
 
 .swiper-pagination-bullet {
