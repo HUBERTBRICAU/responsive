@@ -36,9 +36,9 @@ body {
   background-color: var(--body-color);
   color: var(--white-color);
 }
- 
-section{
-  visibility:visible;
+
+section {
+  visibility: visible;
 }
 
 a {
@@ -59,14 +59,11 @@ img {
   height: 100vh;
 }
 
-.card__container .swiper{
-
+.card__container .swiper {
   height: 460px;
   padding-top: 20px;
   padding-bottom: 20px;
-
 }
-
 
 .card__container {
   padding-block: 5rem;
@@ -88,7 +85,7 @@ img {
   position: relative;
   background-color: var(--first-color-light);
   height: 284px;
-  border-radius:20px;
+  border-radius: 20px;
 }
 
 .card__data {
@@ -102,8 +99,7 @@ img {
 }
 
 .card__img {
-  
-  height: 284px ;
+  height: 284px;
   border-radius: 20px;
   margin: 0 auto;
   position: relative;
@@ -127,7 +123,7 @@ img {
 .card__name {
   font-size: var(--h2-font-size);
   color: var(--second-color);
-  margin-bottom: .75rem;
+  margin-bottom: 0.75rem;
 }
 
 .card__description {
@@ -138,12 +134,12 @@ img {
 .card__button {
   display: inline-block;
   background-color: var(--first-color);
-  padding: .75rem 1.5rem;
-  border-radius: .25rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
   color: var(--dark-color);
   font-weight: 600;
 }
-.card_swiper .wrapper{
+.card_swiper .wrapper {
   cursor: grab;
   transform: translate3d(0px, 0px, 0px);
   height: 300px;
@@ -170,6 +166,33 @@ img {
 
 .swiper-button-next {
   right: 0;
+}
+.control {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  gap: 5em;
+  height: 60px;
+  justify-content: center;
+}
+.control li {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+.control .li .prev{
+color: black;
+}
+.arrow{
+  background-color: rgb(163, 196, 240);
+  height: 40px;
+  width: 40px;
+ border-radius: 50%;
+ color: black;
 }
 
 .swiper-pagination-bullet {
