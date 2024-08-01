@@ -81,12 +81,12 @@ img {
   overflow: hidden;
 }
 
-.card__image {
+/* .card__image {
   position: relative;
   background-color: var(--first-color-light);
   height: 284px;
   border-radius: 20px;
-}
+} */
 
 .card__data {
   background-color: var(--container-color);
@@ -99,7 +99,11 @@ img {
 }
 
 .card__img {
-  height: 284px;
+  
+ 
+  height: 230px;
+  width: 300px;
+
   border-radius: 20px;
   margin: 0 auto;
   position: relative;
