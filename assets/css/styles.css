@@ -15,6 +15,7 @@
   --white-color: hsl(212, 4%, 95%);
   --body-color: hsl(212, 42%, 15%);
   --container-color: hsl(212, 42%, 20%);
+  --h2-color: black;
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -38,6 +39,23 @@ body {
   color: var(--white-color);
 }
 
+.titre {
+  color: var(--h2-color);
+  margin: 0 auto;
+  width:12em;
+  margin-top: 50px;
+  align-items: center;
+  text-align: center;
+  padding: 15px 0 15px 0;
+  border: beige solid 1px;
+  text-transform: uppercase;
+  border-radius: 15px;
+  font-weight: 600;
+  background-color: rgba(152, 161, 238, 0.836);
+}
+.haut {
+  margin-top: 50px;
+}
 a {
   text-decoration: none;
 }
@@ -55,10 +73,9 @@ img {
   justify-content: center;
   align-items: center;
   height: 300px;
-
 }
 
-.swiper-wrapper{
+.swiper-wrapper {
   cursor: grab;
   transform: translate3d(0px, 0px, 0px);
   transition-duration: 0ms;
