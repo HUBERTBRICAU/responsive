@@ -31,14 +31,11 @@
 }
 
 body {
+  height: 800px;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--white-color);
-}
-
-section {
-  visibility: visible;
 }
 
 a {
@@ -53,16 +50,24 @@ img {
 
 /*=============== CARD ===============*/
 .container {
+  /* margin-top: 350px; */
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 300px;
+
 }
 
+.swiper-wrapper{
+  cursor: grab;
+  transform: translate3d(0px, 0px, 0px);
+  transition-duration: 0ms;
+  height: 240px;
+}
 .card__container .swiper {
   height: 460px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
+  padding-top: 5px;
 }
 
 .card__container {
