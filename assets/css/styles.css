@@ -38,6 +38,14 @@ body {
   background-color: var(--body-color);
   color: var(--white-color);
 }
+.monentete{
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  /* width: 450px;
+  height: 150px; */
+  justify-content: space-evenly;
+}
 
 .titre {
   color: var(--h2-color);
