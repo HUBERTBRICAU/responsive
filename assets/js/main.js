@@ -13,6 +13,9 @@ let swiperCards = new Swiper(".card__content", {
   navigation: {
     nextEl: ".next",
     prevEl: ".prev",
+    // prevmilieuEL: ".prevmilieu",
+    // nextmilieuEL: ".nextmilieu"
+    
   },
 
   breakpoints:{
